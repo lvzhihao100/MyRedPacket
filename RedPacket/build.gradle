@@ -26,7 +26,7 @@ android {
 
 dependencies {
     compile rootProject.ext.dependencies["gson"]
-    implementation files('libs/alipaySdk-20160516.jar')
-    compile files('libs/jrmfry-1.4.1.jar')
+    implementation files('libs/alipaySingle-20170510.jar')
+    implementation files('libs/jrmfry-1.5.0.jar')
 }
 repositories { flatDir { dirs '../push/aars' } }
